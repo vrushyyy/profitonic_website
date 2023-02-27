@@ -1,0 +1,36 @@
+h1{
+  font-size: 3em;
+  font-weight:700
+}
+
+img{
+  height: 25em;
+  /* padding: 3em; */
+  background-color: rgb(33, 31, 31);
+  /* border-radius: 1em; */
+
+}
+
+.card{
+  border: 0;
+  border-radius: 3.33em;
+}
+
+h1{
+  text-align: left;
+  color: white;
+
+}
+
+h6{
+  text-align: left;
+  color: white;
+}
+
+.body{
+  background-color: black;
+}
+
+.container.text-center{
+  padding: 3em;
+}

@@ -1,0 +1,39 @@
+.col{
+  color: white;
+  display: flex;
+}
+
+li{
+  list-style-type: none;
+  text-align: left;
+  padding: .6em;
+cursor: pointer;
+}
+
+h5{
+  font-size: 1.3em;
+  color: rgb(255, 254, 254);
+}
+
+img{
+  height: 2em;
+}
+
+hr{
+  color: white;
+}
+
+#ul{
+  /* display: flex; */
+  color: white;
+}
+
+#right{
+  /* display: flex; */
+  float: left;
+}
+
+i{
+  color: white;
+  height: 90%;
+}

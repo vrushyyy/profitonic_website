@@ -1,0 +1,40 @@
+h1{
+  text-align: center;
+}
+
+card-1{
+  border-right: none;
+  height: 10px;
+}
+
+Button{
+  border-radius: 0%;
+  size: 0cap;
+}
+
+button:hover {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.container:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 15, 15);
+    transform: scale(1.1);
+  }
+
+ul{
+    list-style-type: none;
+    /* text-align: left; */
+    display: flex;
+    padding: 6em;
+  cursor: pointer;
+  margin-left: 7em;
+  }
+
+  li{
+    margin-left: 5em;
+    text-align: center;
+  }
+
+

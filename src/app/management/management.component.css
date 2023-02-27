@@ -1,0 +1,28 @@
+.port{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+.card{
+  height:19rem;
+  overflow: hidden;
+  background-color: rgb(30, 27, 27);
+}
+.card-content{
+  background-color: rgb(30, 27, 27);
+  color: white;
+  text-align: center;
+  padding: 2em;
+  height: 150px;
+}
+@media (max-width: 1200px) {
+  .port{
+    font-size: 30px;
+  }
+  .card{
+    height: 20rem;
+    font-size: 10px;
+    margin: 10px 0;
+  }
+}
+

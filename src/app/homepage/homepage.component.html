@@ -1,0 +1,476 @@
+
+<!-- <app-navbar></app-navbar> -->
+<div class="point">
+
+  <div
+    class="offcanvas offcanvas-top d-flex container"
+    style="z-index: 99; height: 40%; background-color: aliceblue"
+    tabindex="-1"
+    id="offcanvasTop"
+    aria-labelledby="offcanvasTopLabel"
+  >
+    <div class="offcanvas-header" style="background-color: aliceblue">
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="offcanvas"
+        aria-label="Close"
+      ></button>
+    </div>
+
+    <div class="section container d-flex" style="margin-top: 60px;" >
+      <div
+        class="section-tag"
+        style="
+          border-left: 2px solid rgb(14, 14, 14);
+        margin: 0 20px;
+          padding: 0 40px;
+        "
+      >
+        <h1 routerLink="/about" style="cursor: pointer">WHAT WE DO</h1>
+        <span
+          >Learn about the strategies and asset classes that make up our global
+          business.
+        </span>
+      </div>
+      <div
+        class="section-tag"
+        style="
+          border-left: 1px solid rgb(5, 5, 5);
+          margin: 0 20px;
+          padding: 0 30px;
+        "
+      >
+        <h1>OUR VALUES </h1>
+        <span
+          >See how we support our people, communities, and the planet through our ESG efforts.
+        </span>
+      </div>
+      <div
+        class="section-tag"
+        style="
+          border-left: 1px solid rgb(22, 22, 22);
+          margin: 0 20px;
+          padding: 0 30px;
+        "
+      >
+        <h1>LEADERSHIP </h1>
+        <span
+          >Meet the team responsible for shaping our firm</span
+        >
+      </div>
+      <div
+        class="section-tag"
+        style="
+          border-left: 1px solid rgb(17, 16, 16);
+          margin: 0 20px;
+          padding: 0 30px;
+        "
+      >
+        <h1>LOCATIONS </h1>
+        <span>Find us in financial hubs across the globe as we pursue the world’s best talent. </span>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="offcanvas offcanvas-top d-flex container"
+    style="z-index: 100; height: 65%; background-color: whitesmoke"
+    tabindex="-1"
+    id="offcanvas"
+    aria-labelledby="offcanvasTopLabel"
+  >
+    <div class="offcanvas-header" style="background-color: rgb(250, 250, 250)">
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="offcanvas"
+        aria-label="Close"
+      ></button>
+    </div>
+
+    <div class="text-center">
+      <div class="row" style="margin-top: 50px;">
+        <div class="col">
+          <img
+            style="height: 25em"
+            src="../../assets/Hudson-Yards-LIMITED-LICENSE-07-656x504-c-default.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="col col text-black"
+          style="border-right: 2px solid rgb(0, 0, 0);"
+        >
+          <h1 style="color: black;" >WORKING HERE</h1>
+          <br>
+          <span
+            >Learn about the culture and community you can expect when you join
+            us.</span
+          >
+          <button type="button" class="btn btn-success mt-5">
+            Define Your Path
+          </button>
+        </div>
+        <div class="col text-black">
+          <h1 style="color: black">STUDENTS & EARLY-CAREER</h1>
+          <br>
+          <span class="float-start"
+            >Whether you’re looking for an internship, your first job out of
+            school, or to apply your experience to new challenges—explore your
+            path to profitonic</span>
+          <br>
+          <br>
+          <h2 style="color: black;margin-top: 2em;">EXPERIENCED PROFESSIONALS</h2>
+          <br>
+          <br>
+          <li class="d-flex p-2">Long/Short Equity</li>
+          <li class="d-flex p-2">Cubist Systematic</li>
+          <li class="d-flex p-2">Private Investments</li>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <article class="o-section o-hero u-reversed-out u-reversed-out--blue">
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <img  src="\assets\profitonic-removebg-preview.png" style="height: 15em; width: 20em;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" style="color: rgb(238, 238, 243); z-index: 100;">ABOUT+</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvasTop" style="color: rgb(251, 251, 255); z-index: 100;">CAREERS+</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" [routerLink]="['/about']"  style="color: rgb(239, 239, 247);">PERSPECTIVE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" style="color: rgb(240, 240, 250);" >REPORT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- 1st section -->
+    <section
+      class="o-hero__intro l-wrap u-scroll-animation u-scroll-animation--delay-two"
+      style="pointer-events: none"
+    >
+      <h5
+        class="o-heading--xxxl u-text-transform--upper l-container scale-in-bottom u-scroll-animate u-scroll-animation--delay-two"
+      >
+        We are an ideas business
+      </h5>
+      <br>
+      <br>
+      <div
+        class="o-rte-text o-rte-text-l u-spacing--and-half--top l-container l-container--s scale-in-bottom u-scroll-animate u-scroll-animation--delay-three"
+      >
+        <p style="color: whitesmoke;">
+          Around the clock and across the globe, we invest in great ideas—but
+          great ideas don’t
+          <span
+            class="TextRun SCXP102734945 BCX0"
+            lang="EN-US"
+            xml:lang="EN-US"
+            data-usefontface="false"
+            data-contrast="none"
+            ><span class="NormalTextRun SCXP102734945 BCX0"
+              >For over 30 years,
+            </span>
+            <span class="NormalTextRun SCXP102734945 BCX0">we have  empowered people invent themselves</span
+            >
+
+            </span
+          ><span
+            class="TextRun SCXP102734945 BCX0"
+            lang="EN-US"
+            xml:lang="EN-US"
+            data-usefontface="false"
+            data-contrast="none"
+            ><span class="NormalTextRun SCXP102734945 BCX0"
+              >to build expertise, challenge consensus, and bring their ideas to
+              life.</span
+            ></span
+          >
+          <span class="EOP SCXP102734945 BCX0">​</span>
+        </p>
+      </div>
+
+      <div class="o-hero__arrow u-scroll-animate scale-in-bottom">
+        <svg
+          width="101"
+          height="170"
+          viewBox="0 0 101 170"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g opacity="0.6">
+            <path
+              class="arrow-down-line"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M48.3575 170L48.3575 9.99976"
+              fill="none"
+              stroke="white"
+            />
+            <line
+              class="angle-line-1"
+              x1="48.4103"
+              y1="169.7"
+              x2="51.2688"
+              y2="165.889"
+              stroke="white"
+            />
+            <line
+              class="angle-line-2"
+              y1="-0.5"
+              x2="4.76415"
+              y2="-0.5"
+              transform="matrix(-0.6 -0.8 -0.8 0.6 47.8575 170)"
+              stroke="white"
+            />
+          </g>
+        </svg>
+      </div>
+    </section>
+    <br>
+    <br>
+    <!-- 2nd section -->
+    <section class="o-hero__chapter c-block-hero--chapter1">
+      <div class="l-container l-wrap">
+        <article class="c-block-split" bp="grid">
+          <section class="c-block-split__media" bp="6@lg ">
+            <section
+              class="c-block-split__media__triple-candle-wrapper c-block__candle-wrapper is-triple"
+            >
+              <div class="c-block__candle-wrapper__image-large">
+                <picture>
+                  <source
+                    media="(min-width:700px)"
+                    srcset="
+                     https://point72.com/wp-content/uploads/2022/05/DSC00706-scaled-602x731-c-default.jpg,
+                      700px
+                    "
+                  />
+                  <img
+                    src="https://point72.com/wp-content/uploads/2022/05/DSC00706-scaled-382x465-c-default.jpg"
+                    alt="two employees talking in Point72 New York office"
+                  />
+                </picture>
+              </div>
+              <div
+                class="c-block-split__media__images-right c-block__candle-wrapper__image-small"
+              >
+              <div class="c-image-double">
+                <picture>
+                  <source
+                    media="(min-width:700px)"
+                    srcset="
+                      https://point72.com/wp-content/uploads/2022/05/12.1.21-Staged-Classroom-Shoot_Pass1_-03425-scaled-382x465-c-default.jpg,
+                      700px
+                    "
+                  />
+                  <img
+                    src="https://point72.com/wp-content/uploads/2022/05/12.1.21-Staged-Classroom-Shoot_Pass1_-03425-scaled-382x465-c-default.jpg"
+                    alt="Academy director in front of classroom"
+                  />
+                </picture>
+              </div>
+
+                <div class="c-image-double">
+                  <picture>
+                    <source
+                      media="(min-width:700px)"
+                      srcset="
+                        https://point72.com/wp-content/uploads/2022/05/Japan-Office-2019-2-38-382x465-c-default.png,
+                        700px
+                      "
+                    />
+                    <img
+                      src="https://point72.com/wp-content/uploads/2022/05/Japan-Office-2019-2-38-382x465-c-default.png"
+                      alt="Two men and one woman looking at computer screen"
+                    />
+                  </picture>
+                </div>
+              </div>
+            </section>
+          </section>
+          <section class="c-block-split__content" bp="5@lg offset-8@lg">
+            <h1 class="o-heading--xl u-text-transform--upper u-spacing--bottom">
+              We are driven by new challenges.
+            </h1>
+
+            <div class="o-rte-text">
+              <p>
+                We are always looking for opportunities to grow and bring new
+                expertise into our firm. We continue to expand across
+                geographies, strategies, and asset classes in pursuit of
+                durable, diversified returns.
+              </p>
+            </div>
+
+            <div
+              class="c-block-split__link-wrapper u-button-group-wrapper u-spacing--top"
+            >
+             <button class="btn_submit">
+            <h5 style="color: black;">
+                See What We Do
+            </h5>
+            </button>
+            </div>
+          </section>
+        </article>
+      </div>
+    </section>
+    <hr />
+    <!-- 3rd section -->
+
+    <section class="o-hero__chapter c-block-hero--chapter2">
+      <div class="l-container l-wrap">
+        <article class="c-block-split" bp="grid">
+          <section class="c-block-split__media" bp="6@lg last@lg offset-7@lg">
+            <section
+              class="c-block-split__media__triple-candle-wrapper c-block__candle-wrapper is-triple"
+            >
+              <div class="c-block__candle-wrapper__image-large">
+                <picture>
+                  <source
+                    media="(min-width:700px)"
+                    srcset="
+                      https://point72.com/wp-content/uploads/2022/05/Cameron-Kinder-scaled-602x731-c-default.jpg,
+                      700px
+                    "
+                  />
+                  <img
+                    src="https://point72.com/wp-content/uploads/2022/05/Cameron-Kinder-scaled-382x465-c-default.jpg"
+                    alt="Male employee smiling in office"
+                  />
+                </picture>
+              </div>
+              <div
+                class="c-block-split__media__images-right c-block__candle-wrapper__image-small"
+              >
+                <div class="c-image-double">
+                  <picture>
+                    <source
+                      media="(min-width:700px)"
+                      srcset="
+                        https://point72.com/wp-content/uploads/2022/05/Japan-Office-2019-2-38-382x465-c-default.png,
+                        700px
+                      "
+                    />
+                    <img
+                      src="https://point72.com/wp-content/uploads/2022/05/Japan-Office-2019-2-38-382x465-c-default.png"
+                      alt="Two men and one woman looking at computer screen"
+                    />
+                  </picture>
+                </div>
+                <div class="c-image-double">
+                  <picture>
+                    <source
+                      media="(min-width:700px)"
+                      srcset="
+                        https://point72.com/wp-content/uploads/2022/05/12.1.21-Staged-Classroom-Shoot_Pass1_-03425-scaled-382x465-c-default.jpg,
+                        700px
+                      "
+                    />
+                    <img
+                      src="https://point72.com/wp-content/uploads/2022/05/12.1.21-Staged-Classroom-Shoot_Pass1_-03425-scaled-382x465-c-default.jpg"
+                      alt="Academy director in front of classroom"
+                    />
+                  </picture>
+                </div>
+              </div>
+            </section>
+          </section>
+          <section
+            class="c-block-split__content c-block-split__content-left"
+            bp="5@lg "
+          >
+            <h1 class="o-heading--xl u-text-transform--upper u-spacing--bottom">
+              We Invest in helping our people grow.
+            </h1>
+            <div class="o-rte-text">
+              <p class="p1">
+                We give our people the resources to build expertise, break new
+                ground in their fields, and develop as professionals so they can
+                forge enduring careers and remain at the forefront of our
+                industry.
+              </p>
+            </div>
+            <div
+              class="c-block-split__link-wrapper u-button-group-wrapper u-spacing--top"
+            >
+            <button class="btn_submit">
+              <h5 style="color: black;">
+                LEARN ABOUT WORKING HERE
+              </h5>
+              </button>
+            </div>
+          </section>
+        </article>
+      </div>
+    </section>
+    <hr />
+
+    <!-- 4th section -->
+    <section class="o-hero__chapter c-block-hero--chapter3">
+      <div class="l-container l-wrap">
+        <article class="c-block-split" bp="grid">
+          <section class="c-block-split__media" bp="6@lg ">
+            <section class="c-block__candle-wrapper is-reversed">
+
+              <div class="c-block__candle-wrapper__image-large">
+                <picture>
+                  <source
+                    media="(min-width:700px)"
+                    srcset="
+                      https://point72.com/wp-content/uploads/2022/06/GIVE_PersonToPerson-scaled-e1655904843985-602x731-c-default.jpg,
+                      700px
+                    "
+                  />
+                  <img
+                    src="https://point72.com/wp-content/uploads/2022/06/GIVE_PersonToPerson-scaled-e1655904843985-382x465-c-default.jpg"
+                    alt="Volunteers sitting on truck at a Person to Person and GIVE event"
+                  />
+                </picture>
+              </div>
+            </section>
+          </section>
+          <section class="c-block-split__content" bp="5@lg offset-8@lg">
+            <h1 class="o-heading--xl u-text-transform--upper u-spacing--bottom">
+              We value diversity and community.
+            </h1>
+            <div class="o-rte-text">
+              <p>
+                We promote inclusivity in our workplace, diversity in our
+                hiring, and employee giving to foster a community that
+                celebrates thinking differently.
+              </p>
+            </div>
+            <div
+              class="c-block-split__link-wrapper u-button-group-wrapper u-spacing--top"
+            > <button class="btn_submit">
+              <h5 style="color: black;">
+                View Our Values
+              </h5>
+              </button>
+            </div>
+          </section>
+        </article>
+      </div>
+    </section>
+  </article>
+  <hr/>
+  <app-multiple></app-multiple>
+  <hr/>
+  <app-footer></app-footer>
+</div>
